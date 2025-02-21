@@ -1,4 +1,12 @@
-Django==5.1.3
-pillow==10.2.0
 numpy==1.26.4
 pycryptodome==3.20.0
+Django==5.1.3
+djangorestframework==3.14.0
+Pillow==10.2.0
+cryptography==42.0.2
+python-decouple==3.8
+django-storages==1.14.2
+psycopg2-binary==2.9.9  # If using PostgreSQL
+mysqlclient==2.2.0  # If using MySQL
+gunicorn==21.2.0  # If deploying with Gunicorn
+whitenoise==6.6.0  # For static file management
